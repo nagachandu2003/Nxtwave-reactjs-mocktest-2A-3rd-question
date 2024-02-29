@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  font-family: 'Roboto';
+  min-height: 100vh;
+  display: flex;
+}
+.card1 {
+  min-height: 100vh;
+  background-color: #131213;
+  font-family: 'Roboto';
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 40%;
+}
+.heading1 {
+  font-family: 'Roboto';
+  color: #f3aa4e;
+}
+option {
+  color: black;
+}
+label {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+.user-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+}
+.button1 {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #f3aa4e;
+  font-weight: bold;
+  width: 150px;
+  color: white;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 0;
+  text-align: center;
+}
+.cen {
+  text-align: center;
+}
+.card2 {
+  color: white;
+  background-color: #000000;
+  min-width: 60%;
+  min-height: 100vh;
+  padding: 10px;
+}
+.list-container1 {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+}
+.list-container2 {
+  padding-left: 0;
+  list-style-type: none;
+}
